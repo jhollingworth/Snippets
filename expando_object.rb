@@ -1,4 +1,4 @@
-class Context
+class Expando
 	private 
 	
 	def create_method( name, &block )
@@ -21,8 +21,3 @@ class Context
 		instance_variable_set "@#{m}", args[0]
 	end
 end 
-
-
-c = Context.new
-
-c.foo = "Bar"

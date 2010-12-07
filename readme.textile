@@ -1,0 +1,13 @@
+h1. Snippets 
+
+A bunch of random snippets of code. 
+
+h2. Expando-object 
+
+An object which allows you to dynamically add properties at runtime. 
+
+<pre>
+e = Expando.now 
+e.foo = "Bar"
+puts e.foo
+</pre>
